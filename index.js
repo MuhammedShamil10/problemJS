@@ -9,7 +9,7 @@ function searchChar(pos, str, ch) {
 	     }
 }
 }
-let result =  searchChar(2,"shamil","mi");
+let result =  searchChar("shamil","mi");
 console.log(result);
 
 

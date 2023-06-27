@@ -1,5 +1,6 @@
 
 function searchChar(pos, str, ch) {
+    let pos = 0
 	let i  = 0;
 	while(i < str.length) {
 	     if(str[i] == ch){
@@ -9,7 +10,7 @@ function searchChar(pos, str, ch) {
 	     }
 }
 }
-let result =  searchChar("shamil","mi");
+let result =  searchChar(2,"shamil","mi");
 console.log(result);
 
 
